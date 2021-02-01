@@ -1,0 +1,62 @@
+html {
+    font-size: 21px;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: black;
+}
+
+figcaption {
+    font-size: 16px;
+    margin-top: 1em;
+}
+
+
+/* max widht verme sebebimiz sayfayı daha küçültürsek 
+image de aynı oranda küçülsün diye 
+bir nevi responsivlik */
+
+
+/* article içeriğini ortalamak için 
+marginlere auto verdik çünküü artikle widhtini biz vermiş 
+olduk bu yüzden işlev iyi oldu*/
+
+article {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+figure {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+.gray {
+    color: gray;
+}
+
+.sans {
+    font-family: sans-serif;
+}
+
+blockquote {
+    font-size: 1.5em;
+}
+
+h1,
+h2,
+h3 blockquote {
+    line-height: 1.3;
+}
